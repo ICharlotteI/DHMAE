@@ -65,7 +65,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dataset",
         type=str,
-        help="[CAMRa2011, Mafengwo, MafengwoS, Weeplaces]",
+        help="[CAMRa2011, Mafengwo, MafengwoS, MovieLens, WeeplacesS]",
         default="Mafengwo",
     )
     parser.add_argument(
